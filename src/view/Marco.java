@@ -252,7 +252,7 @@ public class Marco extends JFrame {
 
 				if (getLamina_cuello_mao().dameSeleccion().equals("Cuello mao")) {
 					camisaRequest.setCuelloMao(true);
-				} else if (getLamina_cuello_mao().dameSeleccion().equals("Cuello mao")) {
+				} else if (getLamina_cuello_mao().dameSeleccion().equals("Cuello comun")) {
 					camisaRequest.setCuelloMao(false);
 				} else {
 					camisaRequest.setCuelloSeleccionado(false);
